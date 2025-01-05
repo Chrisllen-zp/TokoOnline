@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'nama' => 'Christina Yuli Anggita',
             'email' => '19230947@bsi.ac.id',
-            'role' => '0',
+            'role' => '2',
             'status' => 1,
             'hp' => '087872834620',
             'password' => bcrypt('P@55word'),
